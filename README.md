@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-Check it out [Here]()</br>
+Check it out [Here](https://redwanhaitami.github.io/admin-dashboard/)</br>
 <br>
 
 ## About the project
