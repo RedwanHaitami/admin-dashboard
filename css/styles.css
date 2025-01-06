@@ -155,7 +155,7 @@ button {
 
 .container #header {
     background-color: #ffffff;
-    padding: 16px 32px 8px;
+    padding: 16px 32px;
     grid-area: header;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -247,6 +247,10 @@ button {
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+}
+
+.container #header .notification-bar .menu-icon {
+    display: none;
 }
 
 /* notification_trigger_animation */
@@ -465,6 +469,14 @@ button {
 
     .container #navbar .text {
         display: none;
+    }
+
+    .container #header .notification-bar .menu-icon {
+        display: block;
+    }   
+    .container #header .user-info,
+    .container #header .buttons-bar {
+        display: none;  
     }
 
     .container #main #section-2 {
